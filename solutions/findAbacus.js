@@ -20,7 +20,7 @@ function findAbacus(array) {
     for (let i = 0; i < array.length; i++) {
         if (array[i].abacus === true) {
             abacusFoundIndex = i;
-            break;
+            break
         }
         else {
             abacusFoundIndex = null;
